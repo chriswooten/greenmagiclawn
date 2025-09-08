@@ -1,69 +1,76 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Green Magic</title>
-  <style>
-    body {
-      font-family: Arial, sans-serif;
-      background-color: #ffffff;
-      color: #222;
-      text-align: center;
-      margin: 0;
-      padding: 40px 20px;
-    }
-    img.logo {
-      max-width: 340px;
-      height: auto;
-      margin-bottom: 15px;
-    }
-    h2.tagline {
-      font-size: 1.4em;
-      font-weight: bold;
-      color: #175c24; /* dark green */
-      margin: 10px 0 30px;
-      letter-spacing: 1px;
-    }
-    p.message {
-      font-size: 1.2em;
-      font-weight: 600;
-      margin: 30px 0;
-    }
-    .contact-block {
-      margin-top: 20px;
-      font-size: 1.05em;
-      line-height: 1.6em;
-    }
-    .contact-block a {
-      color: #175c24;
-      text-decoration: none;
-      font-weight: bold;
-    }
-    .contact-block a:hover {
-      text-decoration: underline;
-    }
-  </style>
+	<link rel="icon" type="image/png" href="/images/favicon-96x96.png" sizes="96x96" />
+	<link rel="icon" type="image/svg+xml" href="/images/favicon.svg" />
+	<link rel="shortcut icon" href="/images/favicon.ico" />
+	<link rel="apple-touch-icon" sizes="180x180" href="/images/apple-touch-icon.png" />
+	<meta name="apple-mobile-web-app-title" content="Green Magic" />
+	<link rel="manifest" href="/images/site.webmanifest" />
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<meta name="description" content="Green Magic – lawn, tree & shrub health in College Station, Texas. Call (979) 492-3111.">
+	<title>Green Magic</title>
+	<style>
+		body {
+			font-family: Arial, sans-serif;
+			background-color: #ffffff;
+			color: #222;
+			text-align: center;
+			margin: 0;
+			padding: 40px 20px;
+		}
+		img.logo {
+			max-width: 340px;
+			height: auto;
+			margin-bottom: 15px;
+		}
+		h2.tagline {
+			font-size: 1.4em;
+			font-weight: bold;
+			color: #175c24; /* dark green */
+			margin: 10px 0 30px;
+			letter-spacing: 1px;
+		}
+		p.message {
+			font-size: 1.2em;
+			font-weight: 600;
+			margin: 30px 0;
+		}
+		.contact-block {
+			margin-top: 20px;
+			font-size: 1.05em;
+			line-height: 1.6em;
+		}
+		.contact-block a {
+			color: #175c24;
+			text-decoration: none;
+			font-weight: bold;
+		}
+		.contact-block a:hover {
+			text-decoration: underline;
+		}
+	</style>
 </head>
 <body>
-  <img src="images/GreenMagic.jpg" alt="Green Magic Logo" class="logo">
+	<img src="images/GreenMagic.jpg" alt="Green Magic Logo" class="logo">
 
-  <h2 class="tagline">LAWN, TREE & SHRUB HEALTH</h2>
+	<h2 class="tagline">LAWN, TREE & SHRUB HEALTH</h2>
 
-  <p class="message">Our website is being updated for the new season.</p>
+	<p class="message">Our website is being updated for the new season.</p>
 
-  <div class="contact-block">
-    <strong>Green Magic</strong><br>
-    College Station, Texas<br>
-    <a href="tel:+19794923111">(979) 492-3111<br>
-    <a id="email-link"></a>
-  </div>
+	<div class="contact-block">
+		<strong>Green Magic</strong><br>
+		College Station, Texas<br>
+		<a href="tel:+19794923111">(979) 492-3111<br>
+		<a id="email-link"></a>
+	</div>
 <script>
-  const user = "Brian";
-  const domain = "GreenMagicLawn.com";
-  const link = document.getElementById("email-link");
-  link.href = `mailto:${user}@${domain}`;
-  link.textContent = `${user}@${domain}`;
+	const user = "Brian";
+	const domain = "GreenMagicLawn.com";
+	const link = document.getElementById("email-link");
+	link.href = `mailto:${user}@${domain}`;
+	link.textContent = `${user}@${domain}`;
 </script>
 </body>
 </html>
